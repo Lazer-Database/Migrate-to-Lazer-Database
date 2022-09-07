@@ -22,5 +22,6 @@ jobs:
           with:
             php-version: ${{ matrix.php }}
             coverage: none
-      -   run: composer install --no-progress
+      -   run: composer install
+      -   run: composer update
       -   run: ./vendor/bin/phpunit
