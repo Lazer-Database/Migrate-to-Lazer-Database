@@ -16,7 +16,7 @@
     },
     "require-dev": {
         "composer/composer": "^1.9 || ^2.0",
-        "phpunit/phpunit": "^6.2 || ^7.0 || ^8.0",
+        "phpunit/phpunit": "^6.2",
         "mikey179/vfsstream": "~1.6"
     },
     "autoload": {
