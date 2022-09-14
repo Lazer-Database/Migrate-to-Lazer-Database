@@ -1,7 +1,7 @@
 {
     "name": "lazer-database/migrate-to-lazer-database",
     "description": "PHP library to transfer data to Lazer-Database",
-    "keywords": ["lazer", "simple", "json", "flat", "file", "database", "db", "mysql", "converter"],
+    "keywords": ["lazer", "simple", "json", "flat", "file", "database", "db", "migration"],
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^7.1 || ^8.0",
+        "php": "^7.0",
         "greg0/lazer-database": "^2.0"
     },
     "require-dev": {
