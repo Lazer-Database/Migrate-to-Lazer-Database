@@ -1,0 +1,33 @@
+{
+    "name": "lazer-database/migrate-to-lazer-database",
+    "description": "PHP library to transfer data to Lazer-Database",
+    "keywords": ["lazer", "simple", "json", "flat", "file", "database", "db", "migration"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ananth Iyer",
+            "email": "ananthiyerit@gmail.com",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "greg0/lazer-database": "^2.0"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "~1.6",
+        "kahlan/kahlan": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lazer\\Migrate\\": "src/",
+            "Lazer\\Migrate\\Test\\": "tests/src/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/kahlan"
+    },
+    "config": {
+        "github-protocols": ["https"]
+    }
+}
